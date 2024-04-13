@@ -13,12 +13,12 @@ body {
 
 @font-face {
     font-family: "TT_lakes_bold";
-    src: url(..//fonts/TTLakes-Bold.woff) format("woff");
+    src: url(./fonts/TTLakes-Bold.woff) format("woff");
 }
 
 @font-face {
     font-family: "TT_lakes_medium";
-    src: url(..//fonts/TTLakes-Medium.woff) format("woff");
+    src: url(./fonts/TTLakes-Medium.woff) format("woff");
 }
 
 
@@ -41,12 +41,12 @@ body {
 }
 
 .icon-button--top:first-child {
-    background-image: url("..//images/menu.svg");
+    background-image: url("./images/menu.svg");
     margin: 23px 16.73px 0 24px;
 }
 
 .icon-button--top:last-child {
-    background-image: url("..//images/status_icon.svg");
+    background-image: url("./images/status_icon.svg");
     margin: 23px 24px 0 auto;
 }
 
@@ -157,17 +157,17 @@ body {
 }
 
 .icon-button--contact:first-child {
-    background-image: url("..//images/phone.svg");
+    background-image: url("./images/phone.svg");
     margin-right: 16px;
 }
 
 .icon-button--contact:nth-child(2) {
-    background-image: url("..//images/chat.svg");
+    background-image: url("./images/chat.svg");
     margin-right: 16px;
 }
 
 .icon-button--contact:nth-child(3) {
-    background-image: url("..//images/profile.svg");
+    background-image: url("./images/profile.svg");
 }
 
 .mail--text {
