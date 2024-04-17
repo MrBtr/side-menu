@@ -118,9 +118,7 @@ body {
 .navlink--side-menu {
     margin-left: 24px;
     padding: 16px 0 16px 0;
-}
 
-.navlink--text {
     text-align: start;
     font-family: "TT_lakes_medium", sans-serif;
     font-weight: 500;
@@ -177,6 +175,7 @@ body {
     letter-spacing: -0.03em;
     color: #1b1c21;
     text-decoration: none;
+    text-wrap: nowrap;
 }
 
                                                     /* for LANGUAGE SELECTOR */
@@ -196,18 +195,16 @@ body {
     border: none;
     background: none;
     margin-left: -4px;
-}
 
-.language-selector__selector:focus {
-    color: #7e7e82;
-    outline: none;
-}
-
-.language-selector__selector--font {
     font-family: "TT_lakes_medium";
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: -0.01em;
     color: #1b1c21;
+}
+
+.language-selector__selector:focus {
+    color: #7e7e82;
+    outline: none;
 }
